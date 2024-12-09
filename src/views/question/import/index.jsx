@@ -24,7 +24,6 @@ import { useDispatch } from 'react-redux'
 import { useDropzone } from 'react-dropzone'
 
 // Component Imports
-import Link from '@components/Link'
 import CustomAvatar from '@core/components/mui/Avatar'
 
 // Styled Component Imports
