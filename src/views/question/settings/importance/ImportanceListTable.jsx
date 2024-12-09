@@ -53,9 +53,9 @@ import moment from 'moment'
 
 import PaginationCard from '@/api/Pagination'
 
-import AlertDialogBox from '@/components/Common/AlertDialogBox'
-import DialogBoxComponent from '@/components/Common/DialogBoxComponent'
-import useDraggableList from '@/components/globals/useDraggableList'
+import AlertDialogBox from '@/Components/Common/AlertDialogBox'
+import DialogBoxComponent from '@/Components/Common/DialogBoxComponent'
+import useDraggableList from '@/Components/globals/useDraggableList'
 import AddImportanceDrawer from './AddImportanceDrawer'
 import ImportanceListFilter from './ImportanceListFilter'
 

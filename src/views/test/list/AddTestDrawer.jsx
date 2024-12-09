@@ -28,7 +28,7 @@ import 'react-quill/dist/quill.snow.css'
 
 // import { yupResolver } from '@hookform/resolvers/yup'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 
 // Vars
 const initialData = {

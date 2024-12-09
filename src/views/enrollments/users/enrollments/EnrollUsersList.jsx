@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 
 import EnrollUsersListTable from './EnrollUsersListTable'
-import FilterHeader from '@/components/globals/FilterHeader'
+import FilterHeader from '@/Components/globals/FilterHeader'
 import useEnrollmentsApi from '@/api/enrollments/useEnrollmentsApi'
 
 const EnrollUsersList = () => {

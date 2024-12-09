@@ -11,7 +11,7 @@ import { file } from 'valibot'
 // import { USER_MODULE_ENDPOINTS } from '../Const/ApiEndpoints'
 import { useTheme } from '@mui/material/styles'
 
-import { alertMessages } from '@/components/globals/AlertMessages'
+import { alertMessages } from '@/Components/globals/AlertMessages'
 import { ApiRequestHandle } from '@/libs/axios'
 
 export default function useQuestionModuleApi() {

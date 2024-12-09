@@ -22,7 +22,7 @@ import TabPanel from '@mui/lab/TabPanel'
 import CustomTabList from '@core/components/mui/TabList'
 
 import useTestApi from '@/api/test/useTestApi'
-import FilterHeader from '@/components/globals/FilterHeader'
+import FilterHeader from '@/Components/globals/FilterHeader'
 import QuestionGeneralSettings from '../manage/QuestionGeneralSettings'
 import QuestionGeneralSettingsTimingSection from '../manage/QuestionGeneralSettingsTimerSection'
 import QuestionResultSettings from '../manage/QuestionResultSettings'
@@ -32,11 +32,10 @@ import useCategoryApi from '@/api/useCategoryApi'
 
 // API import
 
-const EditTest = ({ isLoading = false, categoriesTableData, categories, setCategories }) => {
+const EditTest = ({ isLoading = false }) => {
   const [types, setTypes] = useState(null)
   const [activeTab, setActiveTab] = useState('edit_details') // Ensure activeTab is initialized properly
   const [formState, setFormState] = useState(null)
-  const { fetchData } = useCategoryApi()
   const searchParams = useSearchParams()
   const guid = searchParams.get('guid')
   const router = useRouter()
@@ -47,6 +46,20 @@ const EditTest = ({ isLoading = false, categoriesTableData, categories, setCateg
   //   const [data, setData] = useState(null)
 
   // useForm hook
+  const { data: categoriesTableData, fetchData } = useCategoryApi()
+  const [categories, setCategories] = useState([{ parent: null, children: categoriesTableData }])
+
+  // const [categories, setCategories] = useState([{ parent: null, children: categoriesTableData }])
+
+  console.info(categoriesTableData, 'new1')
+  useEffect(() => {
+    fetchData()
+  }, [])
+
+  useEffect(() => {
+    setCategories([{ parent: null, children: categoriesTableData }])
+  }, [categoriesTableData])
+
   const {
     control,
     handleSubmit,

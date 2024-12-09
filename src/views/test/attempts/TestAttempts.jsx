@@ -1,6 +1,6 @@
 import { Grid, Card } from '@mui/material'
 
-import FilterHeader from '@/components/globals/FilterHeader'
+import FilterHeader from '@/Components/globals/FilterHeader'
 import AttemptTestFilters from './AttemptTestFilters'
 
 const TestAttempts = () => {

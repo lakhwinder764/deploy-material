@@ -7,7 +7,7 @@ import { useTheme } from '@mui/material/styles'
 
 import axios from 'axios'
 
-import { alertMessages } from '@/components/globals/AlertMessages'
+import { alertMessages } from '@/Components/globals/AlertMessages'
 
 export default function useEnrollmentsApi() {
   const theme = useTheme()

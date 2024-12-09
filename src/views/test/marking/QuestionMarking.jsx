@@ -43,10 +43,10 @@ import { Box, FormControl, Tooltip } from '@mui/material'
 
 import tableStyles from '@core/styles/table.module.css'
 
-import FilterHeader from '@/components/globals/FilterHeader'
+import FilterHeader from '@/Components/globals/FilterHeader'
 
-import AlertDialogBox from '@/components/Common/AlertDialogBox'
-import useDraggableList from '@/components/globals/useDraggableList'
+import AlertDialogBox from '@/Components/Common/AlertDialogBox'
+import useDraggableList from '@/Components/globals/useDraggableList'
 import AttemptTestFilters from '../attempts/AttemptTestFilters'
 import QuestionMarkingFilters from './QuestionMarkingFilters'
 

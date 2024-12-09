@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 import axios from 'axios'
 import { useTheme } from '@mui/material/styles'
 
-import { alertMessages } from '@/components/globals/AlertMessages'
+import { alertMessages } from '@/Components/globals/AlertMessages'
 
 export default function useQuestionApi() {
   const [data, setData] = useState([])

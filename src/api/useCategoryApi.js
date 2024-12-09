@@ -14,7 +14,7 @@ import { IconButton, Typography } from '@mui/material'
 //   CATEGORY_DATA_V2
 // } from '@/Const/ApiEndpoints'
 
-import { alertMessages } from '@/components/globals/AlertMessages'
+import { alertMessages } from '@/Components/globals/AlertMessages'
 import {
   CATEGORY_DATA_V2,
   CATEGORY_DATA,

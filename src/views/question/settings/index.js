@@ -8,7 +8,7 @@ import TabPanel from '@mui/lab/TabPanel'
 
 import CustomTabList from '@core/components/mui/TabList'
 
-import FilterHeader from '@/components/globals/FilterHeader'
+import FilterHeader from '@/Components/globals/FilterHeader'
 import DifficultiesList from './difficulty/DifficultiesList'
 import ImportanceList from './importance/ImportanceList'
 

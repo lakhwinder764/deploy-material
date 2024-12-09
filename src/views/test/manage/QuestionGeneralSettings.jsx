@@ -26,7 +26,7 @@ import {
 import { Controller, useForm } from 'react-hook-form'
 
 import QuestionGeneralSettingsTimingSection from './QuestionGeneralSettingsTimerSection'
-import DialogBoxComponent from '@/components/Common/DialogBoxComponent'
+import DialogBoxComponent from '@/Components/Common/DialogBoxComponent'
 
 const QuestionGeneralSettings = ({ testSettings, guid, setFormState }) => {
   const [openTemplate, setOpenTemplate] = useState(false)

@@ -20,8 +20,8 @@ import Divider from '@mui/material/Divider'
 import classnames from 'classnames'
 
 // Component Imports
-// import Link from '@/components/Link'
-// import Logo from '@/components/layout/shared/Logo'
+// import Link from '@/Components/Link'
+// import Logo from '@/Components/layout/shared/Logo'
 
 // Config Imports
 import themeConfig from '@configs/themeConfig'

@@ -12,7 +12,7 @@ import PerfectScrollbar from 'react-perfect-scrollbar'
 
 // Component Imports
 import NavHeader from '@menu/components/vertical-menu/NavHeader'
-import Logo from '@/components/layout/shared/Logo'
+import Logo from '@/Components/layout/shared/Logo'
 import NavCollapseIcons from '@menu/components/vertical-menu/NavCollapseIcons'
 
 // Hook Imports

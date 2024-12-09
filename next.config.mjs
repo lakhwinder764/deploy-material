@@ -1,3 +1,5 @@
+import path from 'path'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: process.env.BASEPATH,
@@ -10,6 +12,13 @@ const nextConfig = {
         locale: false
       }
     ]
+  },
+  webpack: config => {
+    const __dirname = path.dirname(new URL(import.meta.url).pathname) // Get the directory of the current file
+
+    config.resolve.alias['@'] = path.resolve(__dirname)
+
+    return config
   }
 }
 

@@ -4,7 +4,7 @@ import { SettingsProvider } from '@core/contexts/settingsContext'
 
 import { getMode, getSettingsFromCookie, getSystemMode } from '@core/utils/serverHelpers'
 
-import ThemeProvider from '@/components/theme'
+import ThemeProvider from '@/Components/theme'
 
 // Util Imports
 import ReduxProvider from '@/redux-store/ReduxProvider'

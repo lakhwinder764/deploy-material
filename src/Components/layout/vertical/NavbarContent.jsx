@@ -5,8 +5,8 @@ import classnames from 'classnames'
 
 // Component Imports
 import NavToggle from './NavToggle'
-import ModeDropdown from '@/components/layout/shared/ModeDropdown'
-import UserDropdown from '@/components/layout/shared/UserDropdown'
+import ModeDropdown from '@/Components/layout/shared/ModeDropdown'
+import UserDropdown from '@/Components/layout/shared/UserDropdown'
 
 // Util Imports
 import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'

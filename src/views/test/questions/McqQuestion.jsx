@@ -19,7 +19,7 @@ import {
 
 import { Controller } from 'react-hook-form'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 import Reactquill from '@/libs/styles/Reactquill'
 
 const McqQuestion = ({ mcqFields, setMcqFields, control, error }) => {

@@ -7,12 +7,12 @@ import VerticalLayout from '@layouts/VerticalLayout'
 import HorizontalLayout from '@layouts/HorizontalLayout'
 
 // Component Imports
-import Providers from '@/components/Providers'
-import Navigation from '@/components/layout/vertical/Navigation'
-import Header from '@/components/layout/horizontal/Header'
-import Navbar from '@/components/layout/vertical/Navbar'
-import VerticalFooter from '@/components/layout/vertical/Footer'
-import HorizontalFooter from '@/components/layout/horizontal/Footer'
+import Providers from '@/Components/Providers'
+import Navigation from '@/Components/layout/vertical/Navigation'
+import Header from '@/Components/layout/horizontal/Header'
+import Navbar from '@/Components/layout/vertical/Navbar'
+import VerticalFooter from '@/Components/layout/vertical/Footer'
+import HorizontalFooter from '@/Components/layout/horizontal/Footer'
 import ScrollToTop from '@core/components/scroll-to-top'
 
 // Util Imports

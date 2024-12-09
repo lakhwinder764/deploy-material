@@ -52,12 +52,12 @@ import AddTestDrawer from './AddTestDrawer'
 
 // Style Imports
 
-import AlertDialogBox from '@/components/Common/AlertDialogBox'
-import DialogBoxComponent from '@/components/Common/DialogBoxComponent'
-import FilterHeader from '@/components/globals/FilterHeader'
-import { getInitials } from '@/utils/getInitials'
-import useDraggableList from '@/components/globals/useDraggableList'
-import ColumnVisibility from '@/components/Common/ColumnVisibility'
+import AlertDialogBox from '@/Components/Common/AlertDialogBox'
+import DialogBoxComponent from '@/Components/Common/DialogBoxComponent'
+import FilterHeader from '@/Components/globals/FilterHeader'
+import { getInitials } from '@/Utils/getInitials'
+import useDraggableList from '@/Components/globals/useDraggableList'
+import ColumnVisibility from '@/Components/Common/ColumnVisibility'
 import PaginationCard from '@/api/Pagination'
 import OptionMenu from '@/@core/components/option-menu'
 

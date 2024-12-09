@@ -15,7 +15,7 @@ import { Checkbox, InputAdornment, ListItemText, TextField, Typography, IconButt
 import moment from 'moment'
 
 import AppReactDatepicker from '@/libs/styles/AppReactDatepicker'
-import DateRangePicker from '@/components/Common/DateRangePicker'
+import DateRangePicker from '@/Components/Common/DateRangePicker'
 import SortingEnrollments from './SortingEnrollments'
 
 const PickersComponent = forwardRef(({ ...props }, ref) => {

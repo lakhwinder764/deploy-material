@@ -11,9 +11,9 @@ import { useTheme } from '@mui/material/styles'
 
 import TestCardItems from './TestCardItems'
 import QuestionsSection from './QuestionsSection'
-import AlertDialogBox from '@/components/Common/AlertDialogBox'
+import AlertDialogBox from '@/Components/Common/AlertDialogBox'
 import useTestApi from '@/api/test/useTestApi'
-import FilterHeader from '@/components/globals/FilterHeader'
+import FilterHeader from '@/Components/globals/FilterHeader'
 // import useTestApi from '@/api/useTestApi'
 import useQuestionModuleApi from '@/api/useQuestionModuleApi'
 

@@ -12,7 +12,7 @@ import { styled, useColorScheme, useTheme } from '@mui/material/styles'
 // Component Imports
 import VerticalNav, { NavHeader, NavCollapseIcons } from '@menu/vertical-menu'
 import VerticalMenu from './VerticalMenu'
-import Logo from '@/components/layout/shared/Logo'
+import Logo from '@/Components/layout/shared/Logo'
 
 // Hook Imports
 import useVerticalNav from '@menu/hooks/useVerticalNav'

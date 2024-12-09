@@ -55,7 +55,7 @@ import useDraggableList from './useDraggableList'
 import TableFilters from './TableFilters'
 import AddUserDrawer from './AddUserDrawer'
 
-import { getInitials } from '@/utils/getInitials'
+import { getInitials } from '@/Utils/getInitials'
 
 // import { getLocalizedUrl } from '@/Utils/i18n'
 import '../../style/styles.css'

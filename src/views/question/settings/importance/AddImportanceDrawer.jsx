@@ -25,7 +25,7 @@ import 'react-quill/dist/quill.snow.css'
 
 import { data } from 'autoprefixer'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 import ReactQuillLimited from '@/views/categories/list/ReactQuillLimited'
 
 // Vars

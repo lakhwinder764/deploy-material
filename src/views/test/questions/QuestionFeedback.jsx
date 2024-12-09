@@ -2,7 +2,7 @@ import { Box, Card, CardContent, CardHeader, Grid, Typography } from '@mui/mater
 
 import { Controller } from 'react-hook-form'
 
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 import Reactquill from '@/libs/styles/Reactquill'
 
 const QuestionFeedback = ({ control }) => {

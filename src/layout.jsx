@@ -1,5 +1,5 @@
 // Component Imports
-import Providers from '@/components/Providers'
+import Providers from '@/Components/Providers'
 import BlankLayout from '@layouts/BlankLayout'
 
 // Util Imports

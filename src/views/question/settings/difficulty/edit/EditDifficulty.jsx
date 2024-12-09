@@ -19,7 +19,7 @@ import CircularProgress from '@mui/material/CircularProgress'
 
 import useCategoryApi from '@/api/useCategoryApi'
 import useDifficultiesApi from '@/api/useDifficultiesApi'
-import TextEditor from '@/components/Common/TextEditor'
+import TextEditor from '@/Components/Common/TextEditor'
 
 // API import
 

@@ -11,7 +11,7 @@ import { IconButton, Typography } from '@mui/material'
 import moment from 'moment'
 
 import { USER_MODULE_ENDPOINTS } from '@/Const/test/ApiEndpoints'
-import { alertMessages } from '@/components/globals/AlertMessages'
+import { alertMessages } from '@/Components/globals/AlertMessages'
 
 export default function useTestApi() {
   const [data, setData] = useState([])

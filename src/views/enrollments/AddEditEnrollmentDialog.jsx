@@ -22,7 +22,7 @@ import moment from 'moment'
 
 import { DatePicker } from '@mui/lab'
 
-import DateRangePicker from '@/components/Common/DateRangePicker'
+import DateRangePicker from '@/Components/Common/DateRangePicker'
 import AppReactDatepicker from '@/libs/styles/AppReactDatepicker'
 
 const PickersComponent = forwardRef(({ ...props }, ref) => {

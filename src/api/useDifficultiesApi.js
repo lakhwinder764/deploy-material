@@ -9,7 +9,7 @@ import { IconButton, Typography } from '@mui/material'
 
 import { CATEGORY_DATA, CATEGORY_MODULE_ENDPOINTS, CATEGORY_MODULE_ENDPOINTS_CHILDREN } from '@/Const/test/ApiEndpoints'
 
-import { alertMessages } from '@/components/globals/AlertMessages'
+import { alertMessages } from '@/Components/globals/AlertMessages'
 
 export default function useDifficultiesApi() {
   const [data, setData] = useState([])
