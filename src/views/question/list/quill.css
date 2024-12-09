@@ -1,0 +1,11 @@
+.ql-toolbar {
+  display: flex; /* Enable flexbox for layout */
+  flex-wrap: wrap; /* Allow toolbar items to wrap to the next line if necessary */
+  justify-content: space-between; /* Adjust spacing between toolbar items */
+  gap: 10px; /* Optional: add spacing between items */
+}
+.ql-editor.ql-blank::before {
+  color: #999;
+  font-weight: normal; /* Normal font weight */
+  font-style: bold; /* Italic style for the placeholder */
+}
